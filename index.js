@@ -11,3 +11,8 @@ function destructivelyAppendKitten(kittens) {
   kittens.push();
   return kittens;
 }
+
+function destructivelyAppendKitten(kittens) {
+  kittens.shift();
+  return kittens;
+}
