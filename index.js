@@ -12,7 +12,7 @@ function destructivelyAppendKitten(name) {
   return kittens;
 }
 
-function destructivelyAppendKitten(name) {
+function destructivelyAppendKitten() {
   kittens.shift();
   return kittens;
 }
